@@ -1,3 +1,5 @@
+DB-SCHEMA
+
 CREATE TABLE `category` (
   `id` bigint PRIMARY KEY,
   `name` varchar(255),
@@ -64,3 +66,13 @@ INSERT INTO `inventory` (`id`, `product_id`, `warehouse_id`, `available_quantity
 (2, 2, 1, 50, 5, 'available'),
 (3, 3, 2, 200, 20, 'available'),
 (4, 4, 3, 30, 2, 'available');
+
+
+-- fetch data from table
+SELECT * from products p ;
+
+SELECT * FROM category c ;
+
+SELECT * FROM inventory i ;
+
+SELECT * FROM price p ;
