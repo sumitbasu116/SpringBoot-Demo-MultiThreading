@@ -1,6 +1,6 @@
-DB-SCHEMA
+#DB-SCHEMA
 
-CREATE TABLE `category` (
+`CREATE TABLE `category` (
   `id` bigint PRIMARY KEY,
   `name` varchar(255),
   `type` varchar(255),
@@ -69,7 +69,7 @@ INSERT INTO `inventory` (`id`, `product_id`, `warehouse_id`, `available_quantity
 
 
 -- fetch data from table
-SELECT * from products p ;
+SELECT * from products p ;`
 
 SELECT * FROM category c ;
 
